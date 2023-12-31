@@ -24,11 +24,12 @@ public class ResolutionInputProgram {
 
                 resolutions.add(resolution);
             }
-
+        
             // Save resolutions to file
             saveResolutions(resolutions);
 
             System.out.println("Resolutions saved successfully. You can now use the Resolution Editor Program.");
+            System.out.println();
 
         } catch (IOException e) {
             e.printStackTrace();
